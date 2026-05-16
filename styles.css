@@ -317,8 +317,8 @@ h3 {
   position: absolute;
   inset: 0;
   z-index: -2;
-  opacity: 0.78;
-  filter: contrast(1.02) brightness(0.86) saturate(0.92);
+  opacity: 1;
+  filter: contrast(1.02) brightness(0.88) saturate(0.92);
 }
 
 .orders-scene::after,
