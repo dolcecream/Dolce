@@ -655,12 +655,10 @@ body.animations-ready .reveal.is-visible {
     justify-self: end;
   }
 
-  .policy-grid article {
-  min-height: auto;
-  background: rgba(255, 246, 232, 0.88);
-  box-shadow: 0 4px 12px rgba(18, 11, 8, 0.04);
-  backdrop-filter: blur(0.3px);
-}
+ .policy-grid article { 
+   min-height: auto;
+   box-shadow: 0 10px 24px rgba(18, 11, 8, 0.07);
+  backdrop-filter: blur(0.5px); }
 
   .info-lines p {
     align-items: flex-start;
