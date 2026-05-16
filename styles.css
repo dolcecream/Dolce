@@ -600,7 +600,7 @@ body.animations-ready .reveal {
 
 body.animations-ready .reveal.is-visible {
   opacity: 1;
-  filter: blur(5);
+  filter: blur(0);
   transform: translateY(0) scale(1);
 }
 
@@ -656,10 +656,11 @@ body.animations-ready .reveal.is-visible {
   }
 
   .policy-grid article {
-    min-height: auto;
-    box-shadow: 0 10px 24px rgba(18, 11, 8, 0.07);
-    backdrop-filter: blur(0.5px);
-  }
+  min-height: auto;
+  background: rgba(255, 246, 232, 0.88);
+  box-shadow: 0 4px 12px rgba(18, 11, 8, 0.04);
+  backdrop-filter: blur(0.3px);
+}
 
   .info-lines p {
     align-items: flex-start;
