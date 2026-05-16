@@ -600,7 +600,7 @@ body.animations-ready .reveal {
 
 body.animations-ready .reveal.is-visible {
   opacity: 1;
-  filter: blur(0);
+  filter: blur(5);
   transform: translateY(0) scale(1);
 }
 
