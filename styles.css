@@ -169,7 +169,7 @@ img {
   width: 116%;
   height: 116%;
   opacity: 0.64;
-  filter: contrast(1.22) saturate(0.78) brightness(0.7);
+  filter: contrast(1.22) saturate(0.78) brightness(0.9);
 }
 
 .hero-shade {
